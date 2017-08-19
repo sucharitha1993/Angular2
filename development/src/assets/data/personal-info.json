@@ -1,0 +1,102 @@
+{  
+  "genderTypes" : [
+   {
+     "genderType": "Male"
+   },
+   {
+     "genderType": "Female"
+   },
+   {
+     "genderType": "Transgender"
+   }
+ ],
+
+  "locations" : [
+   {
+     "locationName": "CyberTowers"
+   },
+   {
+     "locationName": "Madhapur"
+   },
+   {
+     "locationName": "kondapur"
+   }
+ ],
+   "salaryTypes" : [
+   {
+     "salaryType": "Cash"
+   },
+   {
+     "salaryType": "Cheque"
+   },
+   {
+     "salaryType": "Bank Transfer"
+   }
+ ],
+   "companyCategories":[
+   {
+     "companyCategory": "Association of Person"
+   },
+   {
+     "companyCategory": "Limited Liablity"
+   },
+   {
+     "companyCategory": "Partnership"
+   },
+   {
+     "companyCategory": "Private Limited"
+   },
+   {
+     "companyCategory": "Public Limited"
+   },
+   {
+     "companyCategory": "Trust"
+   }
+ ],
+   "industries" : [
+   {
+     "industryType": "Agriculture"
+   },
+   {
+     "industryType": "Energy"
+   },
+   {
+     "industryType": "Software"
+   },
+   {
+     "industryType": "Paper"
+   },
+   {
+     "industryType": "Mining"
+   }
+ ],
+   "Bussinesses" : [
+   {
+     "BussinessType": "Ites/Call Centers"
+   },
+   {
+     "BussinessType": "Erp"
+   }
+ ],
+   "documentTypes" : [
+   {
+     "documentType": "Address Proof"
+   },
+   {
+     "documentType": "Identification Proof"
+   }
+ ],
+   "documents" : [
+   {
+     "documentName": "Pan Card"
+   },
+   {
+     "documentName": "Voter Id"
+   },
+   {
+     "documentName": "Aadhar Unique Id"
+   }
+ ]
+
+
+}

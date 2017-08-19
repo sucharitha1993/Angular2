@@ -1,0 +1,60 @@
+<!--START LOGIN PAGE TEMPLATE -->
+<ion-content padding text-center>
+  <img src='../../../assets/images/whoopee.jpg' class='logo' alt="Login" />
+  <!-- START REGISTRATION LIST-->
+  <ion-list padding>
+    <ion-item>
+      <ion-label floating> Email *</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Mobile *</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Password *</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <!--<ion-item>
+    <ion-input type="text" placeholder="Username"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="password" placeholder="Password"></ion-input>
+  </ion-item>-->
+  </ion-list>
+  <!-- END REGISTRATION LIST-->
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12> <button ion-button icon-right class='gradient-color' small>Login
+           <ion-icon ios="ios-log-in" md="md-log-in"></ion-icon>
+         </button>
+      </ion-col>
+      <ion-col col-12 class='font-color' (click)='navigateToRegister()'>Register with Whoopee
+      </ion-col>
+      <!--<ion-col col-12>or
+         </ion-col>
+         <ion-col col-12><img src="../../../assets/images/Fb.png" class='fb-img' alt='fb' />
+         </ion-col>-->
+
+    </ion-row>
+  </ion-grid>
+ <ion-fab bottom right >
+   <button ion-fab>Share</button>
+   <ion-fab-list side="top">
+     <button ion-fab>
+     <ion-icon ios="logo-facebook" md="logo-facebook"></ion-icon>
+      <div>Facebook</div>
+     </button>
+     <button ion-fab>
+      <ion-icon ios="logo-twitter" md="logo-twitter"></ion-icon>
+      <ion-label>Twitter</ion-label>
+     </button>
+     <button ion-fab>
+        <ion-icon ios="logo-youtube" md="logo-youtube"></ion-icon>
+        <ion-label>Youtube</ion-label>
+     </button>
+   </ion-fab-list>
+ </ion-fab>
+</ion-content>
+<!--END LOGIN PAGE TEMPLATE -->

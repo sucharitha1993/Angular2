@@ -1,0 +1,22 @@
+page-register {
+.logo{
+    border-radius:50%;
+}
+.fb-img{
+    max-width: 75%;
+}
+.gradient-color{
+    background: linear-gradient(to right bottom, #B263BE, #6C7CF5) !important ;
+    text-transform: none;
+}
+.font-color{
+   color: #052F59;
+   font-weight:700;
+}
+/*.apply-border .item-inner {
+    border-bottom: 1px solid #dedede !important;
+}*/
+.list-ios > .item-block:first-child,.list-ios > .item-wrapper:first-child .item-block {
+    border-top: 0;
+}
+}
